@@ -1,3 +1,4 @@
-<h1>Player one: <%= @player1 %> Vs. Player two: <%= @player2 %> </h1>
-<h2><%= @player2 %>: 60 HP</h2>
+<h1>Player one: <%= @player1.name %> Vs. Player two: <%= @player2.name %> </h1>
+
+<h2><%= @player2.name %>: <%= @player2.hit_points %> HP</h2>
 <a href="/attack">Attack</a>
